@@ -1,0 +1,193 @@
+/*
+https://www.color-hex.com/color/00ffff
+
+#00ffff Color Hex Cyan
+
+*/
+
+@media (max-width: 375px) {
+    h1 {
+      font-size: 24px;
+    }
+    a  {
+      font-size: 14px;
+    }
+    div {
+      font-size: 16px;
+    }
+	header {
+		font-size: 12px;
+		flex-direction: column;
+	  }
+
+  }
+html{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+header {
+  height: auto;
+  background-position: center center;
+ 
+}
+.contenedor{
+	flex-direction: column;
+	display: flex;
+	width: 100vw;
+	justify-content: center;
+}
+div{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;	
+}
+div a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.68;
+	color: #000;
+	transition: 0.5s;	
+}
+body{ 	
+	text-align: center;
+	display: flex;
+	flex-direction: column;	
+	background-color: #1f4242;
+}
+.userInput {
+	flex: 1;
+	height: 32px;
+	padding: 0 40px;
+	background: #fff;
+	bottom: 0;
+	color: #000;
+	/*
+	color: #444;
+	*/
+	font-size: 18px;
+	border-radius: 25px;
+  }
+  
+  .searchButton {
+	width: 150px;
+	height: 42px;
+	padding: 10px;
+	margin-left: 15px;
+	background-color:  #00ffff;
+	color: #000;
+	/*
+	background: #e61c83;
+	
+	color: #fff;
+	*/
+	border: 0;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 25px;
+	cursor: pointer;
+  }
+  
+.title {
+	font-weight: 700;
+	color:  #00ffff;
+	/*
+	color: #e61c83;
+	*/
+  }
+  
+  .card{
+	justify-content: center;
+	align-content: center;
+	color: #444;
+	background-color:  #00ffff;
+	/*
+	background-color:  rgba(255, 105, 180, 0.8);
+	*/
+	width: 260px;
+	height: 80px;
+	border-radius: 12px;
+	border: solid 2px #444;
+	margin: 10px auto;	
+  	border: none;
+	line-height: 1;  
+}
+
+.card:hover{
+  background-color: #29d8d8;
+  box-shadow: 3px 3px 15px   #3d8181;
+  border: none;
+}
+
+.imagen {
+	width: 20%;
+	border-radius: 100%;
+	display:block;
+	margin:auto;
+  } 
+ 
+.imgerr {
+	width: 250px; height: 250px;
+	border-radius: 100%;
+	display:block;
+	margin:auto;
+}  
+ 
+.title {
+	font-weight: 700;
+	color:  #00ffff;
+	/*
+	color: #e61c83;
+	*/
+  }
+.userInput {
+	flex: 1;
+	height: 32px;
+	padding: 0 40px;
+	background: #fff;
+	bottom: 0;
+	color: #000;
+	/*
+	color: #444;
+	*/
+	font-size: 18px;
+	border-radius: 25px;
+  }
+  
+.searchButton {
+	width: 150px;
+	height: 42px;
+	padding: 10px;
+	margin-left: 15px;
+	background-color:  #00ffff;
+	color: #000;
+	/*
+	background: #e61c83;
+	
+	color: #fff;
+	*/
+	border: 0;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 25px;
+	cursor: pointer;
+  } 
+  
+.formContainer {
+	margin: auto;
+	text-align: center;
+  } 
+   
+  .img {
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+} 
+
+.ajusta{
+	text-align: justify;
+	font-size: 30px;
+
+}
